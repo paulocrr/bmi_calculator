@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'BMI Calculator',
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }
