@@ -20,7 +20,7 @@ class CustomCard extends StatelessWidget {
       child: GestureDetector(
         onTap: onClick,
         child: Container(
-          height: 128,
+          height: 140,
           decoration: BoxDecoration(
             border: Border.all(color: borderColor),
             borderRadius: const BorderRadius.all(Radius.circular(4)),

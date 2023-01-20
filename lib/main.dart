@@ -10,9 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'BMI Calculator',
-      home: HomePage(),
+      theme: ThemeData(fontFamily: 'Poppins'),
+      home: const HomePage(),
     );
   }
 }
